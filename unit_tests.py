@@ -8,6 +8,7 @@ class ChatBotResponseTest(unittest.TestCase):
         print(response)
         self.assertEquals(response, 8)
         
+        
         response = functions.get_chatbot_response("!! divide 5 3")
         print(response)
         self.assertEquals(response, 1)
